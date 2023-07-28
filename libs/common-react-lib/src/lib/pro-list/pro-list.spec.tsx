@@ -1,10 +1,10 @@
 import { render } from '@testing-library/react';
 
-import CommonReactLib from './common-react-lib';
+import ProList from './pro-list';
 
-describe('CommonReactLib', () => {
+describe('ProList', () => {
   it('should render successfully', () => {
-    const { baseElement } = render(<CommonReactLib />);
+    const { baseElement } = render(<ProList />);
     expect(baseElement).toBeTruthy();
   });
 });
