@@ -2,14 +2,16 @@
 import styles from './app.module.less';
 
 import NxWelcome from './nx-welcome';
-import { ProForm, ProList } from '@jiangliuer/common-react-lib';
+// import {
+//   ProForm,
+//   ProList,
+//   useCommonHooks,
+// } from '@jiang-liuer/common-react-lib';
 
 export function App() {
   return (
     <div>
       <NxWelcome title="back-admin" />
-      <ProForm></ProForm>
-      <ProList></ProList>
     </div>
   );
 }
